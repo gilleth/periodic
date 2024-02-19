@@ -1,0 +1,10 @@
+{
+  "table": {
+    "create": "CREATE tableName()",
+    "column": "ALTER TABLE tableName ADD COLUMN columnName TYPE"
+  },
+  "column": {
+    "rename": "ALTER TABLE tableName RENAME COLUMN columnName TO newName",
+    "add_constraint":"ALTER TABLE tableName ADD CONSTRAINT constraint_name (columnName)"
+  }
+}
